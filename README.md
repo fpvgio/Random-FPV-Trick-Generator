@@ -167,7 +167,7 @@ trickButton.addEventListener('click', () => {
 <p>
 This code creates a webpage with a button that, when clicked, displays five random FPV tricks.<br><br>
 Each click will give you a new set of five tricks.<br>
-Each links open in a new tab. The `prowhooper.com` part is removed from the displayed link for better readability.<br>
+Each trick is a link that opens in a new tab. The `prowhooper.com` part is removed from the displayed link for better readability.<br>
 <br>
 To add your own links and use this code offline:<br>
 **Save:** Save the code as an HTML file (e.g., `RandomFPVTrickGenerator`).<br>
