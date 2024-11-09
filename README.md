@@ -170,8 +170,8 @@ Each click will give you a new set of five tricks.<br>
 Each trick is a link that opens in a new tab. The `prowhooper.com` part is removed from the displayed link for better readability.<br>
 <br>
 To add your own links and use this code offline:<br>
-**Save:** Save the code as an HTML file (e.g., `RandomFPVTrickGenerator`).<br>
-**Open:** Open the HTML file in a web browser.<br>
+**Save:** the code as an HTML file (e.g., `RandomFPVTrickGenerator`).<br>
+**Open:** the .HTML file in a web browser.<br>
 <br>
 To edit links right click the saved .html document and 'open with' a text editor, add your links in the links section following the same format, and re-save as a .html document.<br>
 </p>
