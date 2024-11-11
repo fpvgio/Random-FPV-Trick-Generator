@@ -46,6 +46,14 @@ a:hover { /* Mouseover links */
   text-decoration: underline; /* Add underline on hover for better usability */
 }
 
+a[href^="https://prowhooper.com/"] { /* Only apply color state change to prowhooper.com links */
+  color: blue;
+}
+
+a[href^="https://prowhooper.com/"]:visited {
+  color: purple;
+}
+
 </style>
 </head>
 <body>
