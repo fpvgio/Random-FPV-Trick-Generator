@@ -39,7 +39,7 @@ a:link { /* Unvisited links */
 
 a:visited { /* Visited links */
  text-decoration: none;
- color: hot pink;
+ color: purple;
 }
 
 a:hover { /* Mouseover links */
