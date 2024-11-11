@@ -2,40 +2,50 @@
 <head>
 <style>
 body {
-  font-family: sans-serif;
-  text-align: center;
-  min-height: 100vh; /* Ensure full viewport height */
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Vertically center content */
-  align-items: center; /* Horizontally center content */
-  background-color: #f0f0f0;
+ font-family: sans-serif;
+ text-align: center;
+ min-height: 100vh; /* Ensure full viewport height */
+ display: flex;
+ flex-direction: column;
+ justify-content: center; /* Vertically center content */
+ align-items: center; /* Horizontally center content */
+ background-color: #f0f0f0;
 }
 
 button {
-  padding: 15px 30px;
-  font-size: 18px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+ padding: 15px 30px;
+ font-size: 18px;
+ background-color: #4CAF50;
+ color: white;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 20px;
+ list-style: none;
+ padding: 0;
+ margin-top: 20px;
 }
 
 li {
-  margin-bottom: 10px;
+ margin-bottom: 10px;
 }
 
-a {
-  text-decoration: none;
-  color: #333;
+a:link { /* Unvisited links */
+ text-decoration: none;
+ color: blue;
 }
+
+a:visited { /* Visited links */
+ text-decoration: none;
+ color: hot pink;
+}
+
+a:hover { /* Mouseover links */
+  text-decoration: underline; /* Add underline on hover for better usability */
+}
+
 </style>
 </head>
 <body>
@@ -160,7 +170,6 @@ trickButton.addEventListener('click', () => {
   });
 });
 </script>
-
 </body>
 </html>
 
